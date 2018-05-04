@@ -5,7 +5,7 @@ var recipes = new Object;
   return object2;
   }
 
-function destructvelyUpdateObjectWithKeyAndValue(object, key, value){
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   object[key] = value;
   return object;
 }
